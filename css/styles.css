@@ -499,6 +499,70 @@ a {
   background-color: #31d0aa;
 }
 
+.paragraf-email {
+}
+.paragraf-text {
+  margin-bottom: 16px;
+  margin-left: 80px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.paragraf-label {
+  display: flex;
+}
+
+.paragraf-input {
+}
+
+.paragraf-form {
+  border: 1px solid #fff;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 80px;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.btn-subscribe {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  border: none;
+}
+
+.icon-subscribe {
+  margin-left: 16px;
+  fill: #fff;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
