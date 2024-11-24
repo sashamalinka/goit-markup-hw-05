@@ -513,6 +513,7 @@ a {
 
 .paragraf-label {
   display: flex;
+  gap: 24px;
 }
 
 .paragraf-input {
