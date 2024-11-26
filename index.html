@@ -57,7 +57,9 @@
       <section class="benefits" id="heroimage">
         <div class="container">
           <h1 class="benefints-title">Effective Solutions for Your Business</h1>
-          <button class="benefints-button" type="button">Order Service</button>
+          <button class="benefints-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="title-section" id="opportunities">
@@ -561,9 +563,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="btn-modal-close" type="button">
+        <button class="btn-modal-close" type="button" data-modal-close>
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
@@ -645,5 +647,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
